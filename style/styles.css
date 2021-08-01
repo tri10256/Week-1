@@ -1,0 +1,74 @@
+/*  Week 1 : Assignment */
+/* Refer to README.md for instructions */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    /* Add background color*/
+    
+}
+
+.container{
+    /*  Edit Code Block */
+   
+}
+
+.block{
+  width: 50%;
+}
+
+.left__section{
+    /*  Edit left section */
+  
+}
+
+.left__section h2 {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.right__section{
+    /* Edit right section*/
+   
+}
+
+.list__values{
+    list-style-type: square;
+    font-size: 14px;
+    margin:20px 15px;
+}
+
+.list__item{
+    margin-bottom: 5px;
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.code__block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    text-align: left;
+    background-color:#e0e0e0;
+    border-left: 10px solid #999999;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.btn{
+    /* Edit Button */
+  
+}
+
+.author__info{
+    margin-top: 30px;
+}
