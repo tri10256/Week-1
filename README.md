@@ -31,6 +31,13 @@ Tasks (10)
  - Edit the `right__section` and add the image as shown in the final 
    image
 
+    Image Links are :
+
+       http://flexboxfroggy.com/images/frog-green.svg
+
+       http://flexboxfroggy.com/images/lilypad-green.svg
+     
+
    `HINT : use FLEX to align images`
  - Finally, upload code to GitHub and share the link
 
