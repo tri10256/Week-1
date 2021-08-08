@@ -1,56 +1,58 @@
-/*  Week 1 : Assignment */
-/* Refer to README.md for instructions */
-
-*{
+* {
     padding: 0px;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     /* Add background color*/
-    
+    background-color: #43A047;
 }
 
-.container{
+.container {
     /*  Edit Code Block */
-   
+    display: flex;
 }
 
-.block{
-  width: 50%;
+.block {
+    width: 50%;
 }
 
-.left__section{
+.left__section {
     /*  Edit left section */
-  
+    padding: 15px;
+    color: white;
 }
 
 .left__section h2 {
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
 }
 
-.right__section{
+.right__section {
     /* Edit right section*/
-   
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    height: 100vh;
 }
 
-.list__values{
+.list__values {
     list-style-type: square;
     font-size: 14px;
-    margin:20px 15px;
+    margin: 20px 15px;
 }
 
-.list__item{
+.list__item {
     margin-bottom: 5px;
     width: 50%;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.code__block{
+.code__block {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -58,17 +60,20 @@ body{
     padding: 20px;
     color: black;
     text-align: left;
-    background-color:#e0e0e0;
+    background-color: #e0e0e0;
     border-left: 10px solid #999999;
     height: 90px;
     border-radius: 8px;
 }
 
-.btn{
-    /* Edit Button */
-  
+.btn {
+    align-self: flex-end;
+    background-color: #D11606;
+    color: white;
+    border: none;
+    padding: 8px 16px;
 }
 
-.author__info{
+.author__info {
     margin-top: 30px;
 }
